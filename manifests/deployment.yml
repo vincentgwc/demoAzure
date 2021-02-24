@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "vgcluster-43a6"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "vgcluster-43a6"
+  template:
+    metadata:
+      labels:
+        app: "vgcluster-43a6"
+    spec:
+      containers:
+        - name: "vgcluster-43a6"
+          image: "vgcontainerdemo.azurecr.io/vgcluster"
+          ports:
+          - containerPort: 8080
