@@ -9,20 +9,11 @@ pipeline {
             }
         }
 
-        stage('Setup build environment') {
-            steps {
-                sh 'whoami'
-                sh 'mkdir -p `eval echo ~$USER`/.maven-repo'
-                sh 'chmod -R 777 `eval echo ~$USER`/.maven-repo'
-                sh 'ls -la ~'
-                sh 'mvn --version'
-                sh 'which kubectl'
-            }
-        }
-
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', credentialsId: '51827d28-bd7f-4db8-a39d-3d42c4bd15fb', url: 'https://github.com/vincentgwc/demoAzure.git'
+                git branch: 'main', 
+                credentialsId: '51827d28-bd7f-4db8-a39d-3d42c4bd15fb', 
+                url: 'https://github.com/vincentgwc/demoAzure.git'
             }
 
         }
