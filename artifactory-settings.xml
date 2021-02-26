@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>mvn-vrt-frog</name>
-          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
+          <name>vgdocker-mvn-libs-release</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/vgdocker-mvn-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>mvn-vrt-frog</name>
-          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
+          <name>vgdocker-mvn-libs-snapshot</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/vgdocker-mvn-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>mvn-vrt-frog</name>
-          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
+          <name>vgdocker-mvn-libs-release</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/vgdocker-mvn-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>mvn-vrt-frog</name>
-          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
+          <name>vgdocker-mvn-libs-snapshot</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/vgdocker-mvn-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
