@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"*** Insert encrypted password here ***"}</password>
+      <username>admin</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJKMFA1TmI5ME9BYmx2SFh5RlRNNUhkbDI1Sy12bGhQT1otOXhxeU9pbnZVIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL2FkbWluIiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4gYXBpOioiLCJhdWQiOlsiamZydEAqIiwiamZtZEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzExNzk1LCJqdGkiOiIyYzg1OWFhNi1hMTE2LTQyMzgtYmNlNS1iMGQ5N2IzZjY1NzgifQ.EcJFdgmdzkXUgkdjuGjv3Pyzi4wNwdW1BpaRAwUIRyR6IeA7GSMgXh_qLl2egQ7WgtpcIdRRcUfPoBWNz2EK-f4BNr0uiaTE0-3qk8pyNmqRleN2GHt6HHJSNSq4IqJe2HwDXbNSVKMFPqboiC1Mejjq91fKD4XtyBq1JdwKJ_5JPjfn0XarysYi8zm14dPCugaecuYNwsiHcUe5ur3ZvOn-fZYLY5qdPc-XlxzSbkXJTwoXyYaqKYjsaE39-EdO-lkEDioeFAP3KczJsfoeGpAoqCXADh-XWiQfqvei4zeuJlYyXvn0gB0LBvW-_vnuYCNkCRjd5r3-F40G_c9wYw</password>
       <id>central</id>
     </server>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"*** Insert encrypted password here ***"}</password>
+      <username>admin</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJKMFA1TmI5ME9BYmx2SFh5RlRNNUhkbDI1Sy12bGhQT1otOXhxeU9pbnZVIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL2FkbWluIiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4gYXBpOioiLCJhdWQiOlsiamZydEAqIiwiamZtZEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzExNzk1LCJqdGkiOiIyYzg1OWFhNi1hMTE2LTQyMzgtYmNlNS1iMGQ5N2IzZjY1NzgifQ.EcJFdgmdzkXUgkdjuGjv3Pyzi4wNwdW1BpaRAwUIRyR6IeA7GSMgXh_qLl2egQ7WgtpcIdRRcUfPoBWNz2EK-f4BNr0uiaTE0-3qk8pyNmqRleN2GHt6HHJSNSq4IqJe2HwDXbNSVKMFPqboiC1Mejjq91fKD4XtyBq1JdwKJ_5JPjfn0XarysYi8zm14dPCugaecuYNwsiHcUe5ur3ZvOn-fZYLY5qdPc-XlxzSbkXJTwoXyYaqKYjsaE39-EdO-lkEDioeFAP3KczJsfoeGpAoqCXADh-XWiQfqvei4zeuJlYyXvn0gB0LBvW-_vnuYCNkCRjd5r3-F40G_c9wYw</password>
       <id>snapshots</id>
     </server>
   </servers>
