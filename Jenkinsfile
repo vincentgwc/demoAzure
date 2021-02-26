@@ -20,7 +20,7 @@ pipeline {
 
         stage('Build Docker image') {
             steps {
-                sh 'mvn -s artifactory-settings.xml clean verify jib:dockerBuild -DskipTests'
+                bat 'mvn -s {WORKSPACE}/artifactory-settings.xml clean verify jib:dockerBuild -DskipTests'
             }
         }
     }
