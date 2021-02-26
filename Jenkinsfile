@@ -20,7 +20,7 @@ pipeline {
 
         stage('Build Docker image') {
             steps {
-                sh 'mvn -s http://localhost:8082/artifactory/mvn-frog/artifactory-settings.xml -Dmaven.repo.local=`eval echo ~$USER`/.maven-repo verify jib:dockerBuild -DskipTests'
+                sh 'mvn -s {WORKSPACE}/artifactory-settings.xml clean verify jib:dockerBuild -DskipTests'
             }
         }
     }
