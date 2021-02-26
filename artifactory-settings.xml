@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>admin</username>
-      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJKMFA1TmI5ME9BYmx2SFh5RlRNNUhkbDI1Sy12bGhQT1otOXhxeU9pbnZVIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL2FkbWluIiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4gYXBpOioiLCJhdWQiOlsiamZydEAqIiwiamZtZEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzExNzk1LCJqdGkiOiIyYzg1OWFhNi1hMTE2LTQyMzgtYmNlNS1iMGQ5N2IzZjY1NzgifQ.EcJFdgmdzkXUgkdjuGjv3Pyzi4wNwdW1BpaRAwUIRyR6IeA7GSMgXh_qLl2egQ7WgtpcIdRRcUfPoBWNz2EK-f4BNr0uiaTE0-3qk8pyNmqRleN2GHt6HHJSNSq4IqJe2HwDXbNSVKMFPqboiC1Mejjq91fKD4XtyBq1JdwKJ_5JPjfn0XarysYi8zm14dPCugaecuYNwsiHcUe5ur3ZvOn-fZYLY5qdPc-XlxzSbkXJTwoXyYaqKYjsaE39-EdO-lkEDioeFAP3KczJsfoeGpAoqCXADh-XWiQfqvei4zeuJlYyXvn0gB0LBvW-_vnuYCNkCRjd5r3-F40G_c9wYw</password>
+      <username>vincentgwc@hotmail.com</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJENXJTNmJpVnlWTVlOdUVrVmI0WHp0UGlHeHkzRXJodVdHYXM5OE1Zbm1JIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL3ZpbmNlbnRnd2NAaG90bWFpbC5jb20iLCJzY3AiOiJhcHBsaWVkLXBlcm1pc3Npb25zXC9hZG1pbiBhcGk6KiIsImF1ZCI6WyJqZnJ0QCoiLCJqZm1kQCoiLCJqZmV2dEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzIzNTk5LCJqdGkiOiJiNGNjYzMzNy1lMzc2LTQyZGQtYTEzNy1mN2UxNzMyYWFkNzUifQ.W_fgeRQTSnIA07PkGY53yGieFDI97o2JGxiQyzwCY7Xad7BZX-yV6tvrHLrykhbEuq5i8b172oT4xmLxP3arvGV04hY2oQR6ot8sreCigPUe-oMma-6K7Vmgh-EIiQEFLXUtBpSAjBhBGuICLp9Yq_ySGM63RNboYPsjcGQ5zQUVtvpL9r0J2o5gki019lTXfKjof3YYbP8mBZMu4iq08DE7auMZhGV-uHROa4fdGpijykIsrNTxxRBDCwC2uLZLs22YLs_cEJcUob57OKXTf7YhxgbZuHTQwxx7p0KyFH4E_9U8xRW_BODrWT25iKZzP_Qd_d6790sLRhEHMd-_4w</password>
       <id>central</id>
     </server>
     <server>
-      <username>admin</username>
-      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJKMFA1TmI5ME9BYmx2SFh5RlRNNUhkbDI1Sy12bGhQT1otOXhxeU9pbnZVIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL2FkbWluIiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvYWRtaW4gYXBpOioiLCJhdWQiOlsiamZydEAqIiwiamZtZEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzExNzk1LCJqdGkiOiIyYzg1OWFhNi1hMTE2LTQyMzgtYmNlNS1iMGQ5N2IzZjY1NzgifQ.EcJFdgmdzkXUgkdjuGjv3Pyzi4wNwdW1BpaRAwUIRyR6IeA7GSMgXh_qLl2egQ7WgtpcIdRRcUfPoBWNz2EK-f4BNr0uiaTE0-3qk8pyNmqRleN2GHt6HHJSNSq4IqJe2HwDXbNSVKMFPqboiC1Mejjq91fKD4XtyBq1JdwKJ_5JPjfn0XarysYi8zm14dPCugaecuYNwsiHcUe5ur3ZvOn-fZYLY5qdPc-XlxzSbkXJTwoXyYaqKYjsaE39-EdO-lkEDioeFAP3KczJsfoeGpAoqCXADh-XWiQfqvei4zeuJlYyXvn0gB0LBvW-_vnuYCNkCRjd5r3-F40G_c9wYw</password>
+      <username>vincentgwc@hotmail.com</username>
+      <password>eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJENXJTNmJpVnlWTVlOdUVrVmI0WHp0UGlHeHkzRXJodVdHYXM5OE1Zbm1JIn0.eyJzdWIiOiJqZmZlQDAwMFwvdXNlcnNcL3ZpbmNlbnRnd2NAaG90bWFpbC5jb20iLCJzY3AiOiJhcHBsaWVkLXBlcm1pc3Npb25zXC9hZG1pbiBhcGk6KiIsImF1ZCI6WyJqZnJ0QCoiLCJqZm1kQCoiLCJqZmV2dEAqIiwiamZhY0AqIl0sImlzcyI6ImpmZmVAMDAwIiwiaWF0IjoxNjE0MzIzNTk5LCJqdGkiOiJiNGNjYzMzNy1lMzc2LTQyZGQtYTEzNy1mN2UxNzMyYWFkNzUifQ.W_fgeRQTSnIA07PkGY53yGieFDI97o2JGxiQyzwCY7Xad7BZX-yV6tvrHLrykhbEuq5i8b172oT4xmLxP3arvGV04hY2oQR6ot8sreCigPUe-oMma-6K7Vmgh-EIiQEFLXUtBpSAjBhBGuICLp9Yq_ySGM63RNboYPsjcGQ5zQUVtvpL9r0J2o5gki019lTXfKjof3YYbP8mBZMu4iq08DE7auMZhGV-uHROa4fdGpijykIsrNTxxRBDCwC2uLZLs22YLs_cEJcUob57OKXTf7YhxgbZuHTQwxx7p0KyFH4E_9U8xRW_BODrWT25iKZzP_Qd_d6790sLRhEHMd-_4w</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>vgfroglocal-libs-release</name>
-          <url>http://localhost:8081/artifactory/vgfroglocal-libs-release</url>
+          <name>mvn-vrt-frog</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>vgfroglocal-libs-snapshot</name>
-          <url>http://localhost:8081/artifactory/vgfroglocal-libs-snapshot</url>
+          <name>mvn-vrt-frog</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>vgfroglocal-libs-release</name>
-          <url>http://localhost:8081/artifactory/vgfroglocal-libs-release</url>
+          <name>mvn-vrt-frog</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>vgfroglocal-libs-snapshot</name>
-          <url>http://localhost:8081/artifactory/vgfroglocal-libs-snapshot</url>
+          <name>mvn-vrt-frog</name>
+          <url>https://vgjfrog.jfrog.io/artifactory/mvn-vrt-frog</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
