@@ -31,5 +31,12 @@ pipeline {
                 bat 'docker push vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
             }
         }
+        
+        stage('Connect to Azure Kubernetes'){
+        	steps {
+        		echo 'Starting to connect to AKS.'
+        		bat 'az account set --subscription 317b3cdc-2184-4ab7-ae55-43dc18b5a8a6'
+        	}
+        }
     }
 }
