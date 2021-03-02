@@ -35,7 +35,9 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Starting to connect to AKS.'
-        		bat 'az account set --subscription 317b3cdc-2184-4ab7-ae55-43dc18b5a8a6'
+        		withKubeConfig([credentialsId: 'vincentgwc@hotmail.com', serverUrl: 'vgcluster-dns-823718a2.hcp.southeastasia.azmk8s.io']) {
+			      bat 'kubectl apply -f vgcluster'
+			    }
         	}
         }
     }
