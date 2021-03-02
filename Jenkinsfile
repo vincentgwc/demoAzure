@@ -35,8 +35,10 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Starting to connect to AKS.'
-        		bat 'kubectl get pods --all-namespaces=true'
-        		bat 'kubectl get deployments --all-namespaces=true'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/kubeconfig get pods --all-namespaces=true'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/kubeconfig get deployments --all-namespaces=true'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/kubeconfig apply -f ${WORKSPACE}/manifests/deployment.yml'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/kubeconfig apply -f ${WORKSPACE}/manifests/service.yml'
         		bat 'kubectl set image deployments/vgcluster-43a6 vgcluster-43a6=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
         	}
         }
