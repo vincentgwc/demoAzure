@@ -37,8 +37,8 @@ pipeline {
         		echo 'Connect to AKS.'
         		bat 'kubectl get pods --all-namespaces=true'
         		bat 'kubectl get deployments --all-namespaces=true'
-        		echo "${WORKSPACE}"
-        		bat 'kubectl apply -f ${WORKSPACE}/manifests/deployment.yml'
+        		echo "${WORKSPACE}/manifests/deployment.yml"
+        		bat 'kubectl apply -f "${WORKSPACE}/manifests/deployment.yml"'
         		bat 'kubectl apply -f ${WORKSPACE}/manifests/service.yml'
         		bat 'kubectl set image deployments/vgcluster-43a6 vgcluster-43a6=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
         	}
