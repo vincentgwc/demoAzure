@@ -35,6 +35,7 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Starting to connect to AKS.'
+        		bat 'kubectl apply -f vgcluster'
         		withKubeConfig([credentialsId: 'vincentgwc@hotmail.com', serverUrl: 'vgcluster-dns-823718a2.hcp.southeastasia.azmk8s.io']) {
 			      bat 'kubectl apply -f vgcluster'
 			    }
