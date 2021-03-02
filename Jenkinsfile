@@ -37,6 +37,7 @@ pipeline {
         		echo 'Starting to connect to AKS.'
         		bat 'kubectl get pods --all-namespaces=true'
         		bat 'kubectl get deployments --all-namespaces=true'
+        		bat 'kubectl set image deployments/vgcluster-43a6 vgcluster-43a6=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
         	}
         }
     }
