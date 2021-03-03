@@ -36,14 +36,14 @@ pipeline {
         	steps {
         		echo 'Connect to AKS.'
         		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml'
-        		bat 'kubectl config get-clusters'
-				bat 'kubectl config current-context'
-				bat 'kubectl config get-contexts'
-        		bat 'kubectl get pods --all-namespaces=true'
-        		bat 'kubectl get deployments --all-namespaces=true'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml get-clusters'
+				bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml current-context'
+				bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml get-contexts'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml get pods --all-namespaces=true'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml get deployments --all-namespaces=true'
         		echo "${WORKSPACE}/manifests/deployment.yml"
-        		bat 'kubectl apply -f "${WORKSPACE}/vgdemo-app.yaml"'
-        		bat 'kubectl apply -f "${WORKSPACE}/vgdemo-app-service.yaml"'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml apply -f ${WORKSPACE}/vgdemo-app.yaml'
+        		bat 'kubectl --kubeconfig=${WORKSPACE}/cluster.yaml apply -f ${WORKSPACE}/vgdemo-app-service.yaml'
         		bat 'kubectl set image deployments/vgdemo-app vgdemo-app=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
         	}
         }
