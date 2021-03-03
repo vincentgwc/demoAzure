@@ -36,7 +36,7 @@ pipeline {
         	steps {
         		echo 'Connect to AKS.'
         		bat 'kubectl config delete-cluster vgcluster'
-        		bat 'kubectl config delete-contexts vgcluster'
+        		bat 'kubectl config delete-context vgcluster'
         		bat 'kubectl config delete-user clusterUser_vincent.gan_vgcluster'
         		bat 'kubectl config get-clusters'
 				bat 'kubectl config current-context'
