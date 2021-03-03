@@ -35,15 +35,15 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Connect to AKS.'
-        		bat 'kubectl apply -f "C:\WorkspaceDemo\demo\cluster.yaml"'
+        		bat 'kubectl apply -f "C:/WorkspaceDemo/demo/cluster.yaml"'
         		bat 'kubectl config get-clusters'
 				bat 'kubectl config current-context'
 				bat 'kubectl config get-contexts'
         		bat 'kubectl get pods --all-namespaces=true'
         		bat 'kubectl get deployments --all-namespaces=true'
         		echo "${WORKSPACE}/manifests/deployment.yml"
-        		bat 'kubectl apply -f "C:\WorkspaceDemo\demo\vgdemo-app.yaml"'
-        		bat 'kubectl apply -f "C:\WorkspaceDemo\demo\vgdemo-app-service.yaml"'
+        		bat 'kubectl apply -f "C:/WorkspaceDemo/demo/vgdemo-app.yaml"'
+        		bat 'kubectl apply -f "C:/WorkspaceDemo/demo/vgdemo-app-service.yaml"'
         		bat 'kubectl set image deployments/vgcluster-43a6 vgcluster-43a6=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
         	}
         }
