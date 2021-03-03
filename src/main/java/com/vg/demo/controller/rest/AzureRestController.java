@@ -6,6 +6,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +26,15 @@ public class AzureRestController {
 	@GetMapping("/users")
 	List<UserProfile> all() {
 		return (List<UserProfile>) userProfileRepo.findAll();
+	}
+	
+	@GetMapping("/user/{id}")
+	UserProfile findByUserId(@PathVariable(value = "id") String id) {
+		Optional<UserProfile> up = userProfileRepo.findById(id);
+		if (up != null) {
+			return up.get();
+		}
+		return null;
 	}
 	
 	@PostMapping("/register")
