@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vgdemo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vgdemo-app
+  template:
+    metadata:
+      labels:
+        app: vgdemo-app
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: vgdemo-app
+          image: vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo
+          resources:
+            requests:
+              memory: '1024Mi'
+              cpu: '500m'
+            limits:
+              memory: '1500Mi'
+              cpu: '1'
+          ports:
+            - name: http
+              containerPort: 8080     

@@ -35,6 +35,10 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Connect to AKS.'
+        		bat 'kubectl config get-clusters'
+				bat 'kubectl config current-context'
+				bat 'kubectl config get-contexts'
+        		bat 'kubectl config pods --all-namespaces=true'
         		bat 'kubectl get pods --all-namespaces=true'
         		bat 'kubectl get deployments --all-namespaces=true'
         		echo "${WORKSPACE}/manifests/deployment.yml"
