@@ -35,9 +35,6 @@ pipeline {
         stage('Connect to Azure Kubernetes'){
         	steps {
         		echo 'Connect to AKS.'
-        		bat 'kubectl config delete-cluster vgcluster'
-        		bat 'kubectl config delete-context vgcluster'
-        		bat 'kubectl config delete-user clusterUser_vincent.gan_vgcluster'
         		bat 'kubectl config get-clusters'
 				bat 'kubectl config current-context'
 				bat 'kubectl config get-contexts'
