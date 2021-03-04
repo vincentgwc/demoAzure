@@ -41,6 +41,7 @@ pipeline {
         		bat 'kubectl apply -f C:/WorkspaceDemo/demo/vgdemo-app.yaml'
         		bat 'kubectl apply -f C:/WorkspaceDemo/demo/vgdemo-app-service.yaml'
         		bat 'kubectl set image deployments/vgdemo-app vgdemo-app=vgjfrog.jfrog.io/vgdocker-docker-local/vgdemo:latest'
+        		bat 'kubectl rollout restart deployment vgdemo-app'
         		bat 'kubectl get pods --all-namespaces=true'
         		bat 'kubectl get deployments --all-namespaces=true'
         	}
