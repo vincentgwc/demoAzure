@@ -1,10 +1,12 @@
 package com.vg.demo.controller.rest;
 
 import java.sql.Timestamp;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.SystemEnvironmentPropertySource;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -35,6 +37,11 @@ public class AzureRestController {
 			return up.get();
 		}
 		return null;
+	}
+	
+	@GetMapping("/currentTimestampStr")
+	String displaySomething() {
+		return String.valueOf(Calendar.getInstance().getTimeInMillis());
 	}
 	
 	@PostMapping("/register")
